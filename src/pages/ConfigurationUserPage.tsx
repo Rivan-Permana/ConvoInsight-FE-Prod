@@ -623,8 +623,7 @@ export default function ConfigurationUserPage() {
               ✨ Step 2: Configure AI Provider
             </h2>
             <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-              Pilih provider seperti <b>Gemini</b> atau <b>OpenAI</b>, lalu isi
-              API Key kamu di sini untuk mulai menggunakan ConvoInsight.
+              Select a provider such as <b>Gemini</b> or <b>OpenAI</b>, then enter your API Key here to start using ConvoInsight.
             </p>
             <button
               onClick={handleGotIt}
