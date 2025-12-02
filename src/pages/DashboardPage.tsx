@@ -31,7 +31,7 @@ type HydratedDashboardItem = DashboardItem & { result?: ExecutionResult };
 
 const API_BASE =
   import.meta.env.VITE_API_URL ||
-  "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app";
+  "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app";
 
 export default function DashboardPage() {
   const { section: domain } = useParams();

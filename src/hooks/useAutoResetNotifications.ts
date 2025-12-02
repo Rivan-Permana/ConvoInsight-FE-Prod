@@ -14,7 +14,7 @@ export function useAutoResetNotifications() {
       if (lastReset !== today) {
         try {
           const res = await fetch(
-            "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app/notifications/reset-user",
+            "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app/notifications/reset-user",
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },

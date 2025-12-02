@@ -66,7 +66,7 @@ export default function KPIConfigurator({
     (async () => {
       try {
         const res = await fetch(
-          `https://convoinsight-be-flask-32684464346.asia-southeast2.run.app/domains/${section}/datasets`
+          `https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app/domains/${section}/datasets`
         );
         if (!res.ok) throw new Error(`Failed: ${res.status}`);
         const data = await res.json();

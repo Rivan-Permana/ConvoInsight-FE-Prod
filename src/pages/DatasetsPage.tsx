@@ -30,7 +30,7 @@ type DatasetApiItem = {
 };
 
 const API_BASE =
-  "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app";
+  "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app";
 
 const DatasetsPage: React.FC<Props> = () => {
   const navigate = useNavigate();

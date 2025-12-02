@@ -32,7 +32,7 @@ import { doc, getDoc, updateDoc } from "firebase/firestore";
 ---------------------------------------------- */
 const API_BASE =
   import.meta.env.VITE_API_URL ||
-  "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app";
+  "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app";
 
 /* ---------------------------------------------
    Types

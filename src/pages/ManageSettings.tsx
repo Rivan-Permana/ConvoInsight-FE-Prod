@@ -66,7 +66,7 @@ export type HydratedDashboardItem = DashboardItem & {
 
 const API_BASE =
   import.meta.env.VITE_API_URL ||
-  "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app";
+  "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app";
 
 export default function ManageSettings() {
   const { section: domain } = useParams();
@@ -468,7 +468,7 @@ export default function ManageSettings() {
   ${selectedColumns.map((c) => `- ${c.split(":")[1]}`).join("\n")}
   Return exactly one line with the format:
   Target WL (Mn): <value>, TUR: <value>%
-  
+
   Formatting rules:
   - Use comma as decimal separator (example: 6,35)
   - No thousands separator (example: 84000)

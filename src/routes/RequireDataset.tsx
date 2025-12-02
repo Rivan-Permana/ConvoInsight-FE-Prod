@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-hot-toast";
 
 const API_BASE =
-  "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app";
+  "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app";
 
 interface Props {
   children: React.ReactNode;

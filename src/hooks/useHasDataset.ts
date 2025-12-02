@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const API_BASE =
-  "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app";
+  "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app";
 
 export default function useHasDataset(section?: string) {
   const [hasDataset, setHasDataset] = useState<boolean | null>(null);

@@ -4,7 +4,7 @@ import { useAuthUser } from "../utils/firebaseSetup";
 import AppShell from "../components/DatasetsComponents/AppShell";
 
 const API_BASE =
-  "https://convoinsight-be-flask-32684464346.asia-southeast2.run.app";
+  "https://convoinsight-be-flask-prod-32684464346.asia-southeast2.run.app";
 
 type ConnectionItem = {
   id: string;
